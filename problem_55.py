@@ -10,5 +10,5 @@ def count_frequency(lst):
             freq[item] = 1
     return freq
 
-numbers = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4]
+numbers = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4] 
 print(f"Frequency: {count_frequency(numbers)}")
