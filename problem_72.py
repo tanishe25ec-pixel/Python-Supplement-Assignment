@@ -7,7 +7,7 @@ def count_case(text):
     for char in text:
         if char.isupper(): 
             upper += 1
-        elif char.islower():
+        elif char.islower():  # colon added here
             lower += 1
     return upper, lower
 
