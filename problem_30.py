@@ -6,5 +6,5 @@ def area_of_circle(radius):
     area = pi * radius * radius
     return area
 
-r = "5"
+r = 5  # use a number instead of a string
 print(f"Area: {area_of_circle(r)}")
