@@ -2,10 +2,8 @@
 # Find and fix the error
 
 def intersection(list1, list2):
-    result = []
-    for item in list1:
-        if item in list2:
-            result.append(item)
+    set2 = set(list2)
+    result = [item for item in list1 if item in set2]
     return result
 
 l1 = [1, 2, 3, 4, 5]
